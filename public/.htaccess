@@ -1,0 +1,21 @@
+AddDefaultCharset utf-8
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    
+    # Универсальный редирект с домена С www. на домен БEЗ www
+    # при необходимости - раскомментировать:
+    #
+    # RewriteCond %{HTTPS} !=on
+    # RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    # RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+    # prevent httpd from serving dotfiles (.htaccess, .svn, .git, etc.)
+    RedirectMatch 403 /\..*$
+
+    # if a directory or a file exists, use it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # otherwise forward it to index.php
+    RewriteRule . index.php
+</IfModule>
