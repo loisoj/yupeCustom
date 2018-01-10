@@ -47,13 +47,21 @@ class PageUrlRule extends CBaseUrlRule
             Yii::app()->getCache()->set(self::CACHE_KEY, $slugs, 0);
         }
 
-        $parts = explode('/', $manager->removeLangFromUrl($pathInfo));
+           $parts = explode('/', $manager->removeLangFromUrl($pathInfo));
+        $g_uri = $_SERVER['REQUEST_URI'];
+        $frest = substr_count($g_uri,'/');
 
-        if (!empty($parts)) {
+        if ($frest <= 1) {
             $slug = $parts[0];
             if (in_array($slug, $slugs, true)) {
                 return 'page/page/view/slug/' . $slug;
             }
+        }
+        elseif ($frest > 1) {
+          $slug = $parts[1];
+          if (in_array($slug, $slugs, true)) {
+              return 'page/page/view/slug/' . $slug;
+          }
         }
 
         return false;
