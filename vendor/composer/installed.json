@@ -1,0 +1,912 @@
+[
+    {
+        "name": "wikimedia/composer-merge-plugin",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wikimedia/composer-merge-plugin.git",
+            "reference": "0e7f98d4cd3919dce5ef317323976d6e4ed7660e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wikimedia/composer-merge-plugin/zipball/0e7f98d4cd3919dce5ef317323976d6e4ed7660e",
+            "reference": "0e7f98d4cd3919dce5ef317323976d6e4ed7660e",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "composer/composer": "~1.0.0",
+            "jakub-onderka/php-parallel-lint": "~0.8",
+            "phpunit/phpunit": "~4.8|~5.0",
+            "squizlabs/php_codesniffer": "~2.1.0"
+        },
+        "time": "2017-07-13 06:13:24",
+        "type": "composer-plugin",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            },
+            "class": "Wikimedia\\Composer\\MergePlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Wikimedia\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bryan Davis",
+                "email": "bd808@wikimedia.org"
+            }
+        ],
+        "description": "Composer plugin to merge multiple composer.json files"
+    },
+    {
+        "name": "2amigos/transliterator-helper",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/2amigos/transliteration-helper.git",
+            "reference": "845254bed23257b4bc9bb987b52212ee8b9baa07"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/2amigos/transliteration-helper/zipball/845254bed23257b4bc9bb987b52212ee8b9baa07",
+            "reference": "845254bed23257b4bc9bb987b52212ee8b9baa07",
+            "shasum": ""
+        },
+        "time": "2014-01-08 17:37:55",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "dosamigos\\yii\\helpers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Ramirez",
+                "email": "ramirez.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com"
+            }
+        ],
+        "description": "Transliterator Helper for Yii 1.*.",
+        "keywords": [
+            "helper",
+            "yii"
+        ]
+    },
+    {
+        "name": "ckeditor/ckeditor",
+        "version": "4.7.3",
+        "version_normalized": "4.7.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ckeditor/ckeditor-releases.git",
+            "reference": "97b8f412f6b36985c734daf0717e81009a885dba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ckeditor/ckeditor-releases/zipball/97b8f412f6b36985c734daf0717e81009a885dba",
+            "reference": "97b8f412f6b36985c734daf0717e81009a885dba",
+            "shasum": ""
+        },
+        "time": "2017-09-13 13:09:47",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+",
+            "LGPL-2.1+",
+            "MPL-1.1+"
+        ],
+        "authors": [
+            {
+                "name": "CKSource",
+                "homepage": "http://cksource.com"
+            }
+        ],
+        "description": "JavaScript WYSIWYG web text editor.",
+        "homepage": "http://ckeditor.com",
+        "keywords": [
+            "CKEditor",
+            "editor",
+            "fckeditor",
+            "html",
+            "javascript",
+            "richtext",
+            "text",
+            "wysiwyg"
+        ]
+    },
+    {
+        "name": "clevertech/yii-booster",
+        "version": "v4.0.1",
+        "version_normalized": "4.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/clevertech/YiiBooster.git",
+            "reference": "e0f9f68cfab70a4d7663f2857159dfeda4e15433"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/clevertech/YiiBooster/zipball/e0f9f68cfab70a4d7663f2857159dfeda4e15433",
+            "reference": "e0f9f68cfab70a4d7663f2857159dfeda4e15433",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "ardem/yii-coding-standard": "dev-master",
+            "mayflower/php-codebrowser": "1.*",
+            "ncuesta/pinocchio": "dev-master",
+            "phploc/phploc": "2.*",
+            "phpunit/phpunit": "3.7.*",
+            "sebastian/phpcpd": "2.*",
+            "squizlabs/php_codesniffer": "1.*",
+            "yiisoft/yii": "1.1.14"
+        },
+        "time": "2014-06-06 19:38:18",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Ramirez",
+                "email": "amigo.cobos@gmail.com",
+                "homepage": "http://www.ramirezcobos.com",
+                "role": "Founder and development"
+            },
+            {
+                "name": "Saphronov Mark",
+                "email": "hijarian@gmail.com",
+                "homepage": "http://about.me/hijarian"
+            },
+            {
+                "name": "Ruslan Fadeev"
+            },
+            {
+                "name": "Amr Bedair",
+                "email": "amr.bedair@gmail.com",
+                "homepage": "http://amr.nefya.com"
+            }
+        ],
+        "description": "Widget toolkit for Yii framework",
+        "homepage": "http://yiibooster.clevertech.biz/",
+        "keywords": [
+            "bootstrap",
+            "yii"
+        ]
+    },
+    {
+        "name": "imagine/imagine",
+        "version": "v0.6.3",
+        "version_normalized": "0.6.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/avalanche123/Imagine.git",
+            "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/avalanche123/Imagine/zipball/149041d2a1b517107bfe270ca2b1a17aa341715d",
+            "reference": "149041d2a1b517107bfe270ca2b1a17aa341715d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "sami/sami": "dev-master"
+        },
+        "suggest": {
+            "ext-gd": "to use the GD implementation",
+            "ext-gmagick": "to use the Gmagick implementation",
+            "ext-imagick": "to use the Imagick implementation"
+        },
+        "time": "2015-09-19 16:54:05",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "0.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Imagine": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bulat Shakirzyanov",
+                "email": "mallluhuct@gmail.com",
+                "homepage": "http://avalanche123.com"
+            }
+        ],
+        "description": "Image processing for PHP 5.3",
+        "homepage": "http://imagine.readthedocs.org/",
+        "keywords": [
+            "drawing",
+            "graphics",
+            "image manipulation",
+            "image processing"
+        ]
+    },
+    {
+        "name": "itmages/yii-eoauth",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/itmages/yii-eoauth.git",
+            "reference": "702f8b8b0d4128de1ead9f37b3ff700ef0ef75a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/itmages/yii-eoauth/zipball/702f8b8b0d4128de1ead9f37b3ff700ef0ef75a9",
+            "reference": "702f8b8b0d4128de1ead9f37b3ff700ef0ef75a9",
+            "shasum": ""
+        },
+        "time": "2017-05-29 17:41:20",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jorge Barata González"
+            }
+        ],
+        "description": "Yii Framework Extension. EOAuthUserIdentity class implements IUserIdentity Yii interface and the OAuth protocol to authenticate a user. Based on Google's software.",
+        "homepage": "http://www.yiiframework.com/extension/eoauth/"
+    },
+    {
+        "name": "itmages/lightopenid",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/itmages/lightopenid.git",
+            "reference": "1c9c15e780381bdf93e7b6817353caf460a67368"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/itmages/lightopenid/zipball/1c9c15e780381bdf93e7b6817353caf460a67368",
+            "reference": "1c9c15e780381bdf93e7b6817353caf460a67368",
+            "shasum": ""
+        },
+        "time": "2013-08-20 17:26:36",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mewp"
+            }
+        ],
+        "description": "An PHP 5 library for easy openid authentication. Works only as a consumer.",
+        "homepage": "http://gitorious.org/lightopenid"
+    },
+    {
+        "name": "nodge/yii-eauth",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Nodge/yii-eauth.git",
+            "reference": "df9be549f8d3699b3a06da30954f363beaa7d738"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Nodge/yii-eauth/zipball/df9be549f8d3699b3a06da30954f363beaa7d738",
+            "reference": "df9be549f8d3699b3a06da30954f363beaa7d738",
+            "shasum": ""
+        },
+        "require": {
+            "itmages/lightopenid": "@stable",
+            "itmages/yii-eoauth": "@stable",
+            "php": ">=5.3.0"
+        },
+        "time": "2017-04-09 19:49:56",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "."
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD 2-Clause License"
+        ],
+        "authors": [
+            {
+                "name": "Maxim Zemskov",
+                "email": "nodge@yandex.ru"
+            }
+        ],
+        "description": "EAuth extension allows to authenticate users by the OpenID, OAuth 1.0 and OAuth 2.0 providers.",
+        "homepage": "https://github.com/Nodge/yii-eauth"
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v5.2.26",
+        "version_normalized": "5.2.26.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "70362997bda4376378be7d92d81e2200550923f7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/70362997bda4376378be7d92d81e2200550923f7",
+            "reference": "70362997bda4376378be7d92d81e2200550923f7",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "jms/serializer": "0.16.*",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.8.*",
+            "symfony/debug": "2.8.*",
+            "symfony/filesystem": "2.8.*",
+            "symfony/translation": "2.8.*",
+            "symfony/yaml": "2.8.*",
+            "zendframework/zend-cache": "2.5.1",
+            "zendframework/zend-config": "2.5.1",
+            "zendframework/zend-eventmanager": "2.5.1",
+            "zendframework/zend-filter": "2.5.1",
+            "zendframework/zend-i18n": "2.5.1",
+            "zendframework/zend-json": "2.5.1",
+            "zendframework/zend-math": "2.5.1",
+            "zendframework/zend-serializer": "2.5.*",
+            "zendframework/zend-servicemanager": "2.5.*",
+            "zendframework/zend-stdlib": "2.5.1"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2017-11-04 09:26:05",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "samdark/sitemap",
+        "version": "2.0.8",
+        "version_normalized": "2.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/samdark/sitemap.git",
+            "reference": "01c653cab00848128a4fb2aa7d58a74451ee9d2c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/samdark/sitemap/zipball/01c653cab00848128a4fb2aa7d58a74451ee9d2c",
+            "reference": "01c653cab00848128a4fb2aa7d58a74451ee9d2c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.4"
+        },
+        "time": "2017-08-17 14:55:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "samdark\\sitemap\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/"
+            }
+        ],
+        "description": "Sitemap and sitemap index builder",
+        "homepage": "https://github.com/samdark/sitemap",
+        "keywords": [
+            "Sitemap"
+        ]
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "v3.3.13",
+        "version_normalized": "3.3.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "271d8c27c3ec5ecee6e2ac06016232e249d638d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/271d8c27c3ec5ecee6e2ac06016232e249d638d9",
+            "reference": "271d8c27c3ec5ecee6e2ac06016232e249d638d9",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0",
+            "symfony/dependency-injection": "~3.3",
+            "symfony/expression-language": "~2.8|~3.0",
+            "symfony/stopwatch": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2017-11-05 15:47:03",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.35.0",
+        "version_normalized": "1.35.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/daa657073e55b0a78cce8fdd22682fddecc6385f",
+            "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.3@dev"
+        },
+        "time": "2017-09-27 18:06:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.35-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "yiiext/imperavi-redactor-widget",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/imperavi-redactor-widget.git",
+            "reference": "bcee0b0bfe0b394eff9a5972b6f11785d735ab8b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiiext/imperavi-redactor-widget/zipball/bcee0b0bfe0b394eff9a5972b6f11785d735ab8b",
+            "reference": "bcee0b0bfe0b394eff9a5972b6f11785d735ab8b",
+            "shasum": ""
+        },
+        "time": "2017-02-28 18:03:23",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "Veaceslav Medvedev",
+                "email": "slavcopost@gmail.com"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/"
+            }
+        ],
+        "description": "Imperavi Redactor Widget for Yii",
+        "homepage": "https://github.com/yiiext/imperavi-redactor-widget",
+        "keywords": [
+            "impravi",
+            "wysiwyg",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiisoft/yii",
+        "version": "1.1.19",
+        "version_normalized": "1.1.19.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii.git",
+            "reference": "5790cbff82cb4837d445f995932f5d069ab4ba4c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii/zipball/5790cbff82cb4837d445f995932f5d069ab4ba4c",
+            "reference": "5790cbff82cb4837d445f995932f5d069ab4ba4c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "require-dev": {
+            "phing/phing": "2.*",
+            "phpunit/phpunit": "~3.7",
+            "phpunit/phpunit-selenium": "~1.4.0"
+        },
+        "time": "2017-06-08 07:19:07",
+        "bin": [
+            "framework/yiic"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "framework/YiiBase.php",
+                "framework/yii.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/",
+                "role": "Founder and project lead"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Maurizio Domba",
+                "homepage": "http://mdomba.info/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Wei Zhuo",
+                "email": "weizhuo@gmail.com",
+                "role": "Project site maintenance and development"
+            },
+            {
+                "name": "Sebastián Thierer",
+                "email": "sebas@artfos.com",
+                "role": "Component development"
+            },
+            {
+                "name": "Jeffrey Winesett",
+                "email": "jefftulsa@gmail.com",
+                "role": "Documentation and marketing"
+            },
+            {
+                "name": "Timur Ruziev",
+                "email": "resurtm@gmail.com",
+                "homepage": "http://resurtm.com/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com",
+                "role": "Core framework development"
+            }
+        ],
+        "description": "Yii Web Programming Framework",
+        "homepage": "http://www.yiiframework.com/",
+        "keywords": [
+            "framework",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiiext/migrate-command",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/migrate-command.git",
+            "reference": "9191b9b6624620c3c6a41f0867e06f22e2c77004"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiiext/migrate-command/zipball/9191b9b6624620c3c6a41f0867e06f22e2c77004",
+            "reference": "9191b9b6624620c3c6a41f0867e06f22e2c77004",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0",
+            "yiisoft/yii": "1.1.*"
+        },
+        "time": "2014-12-01 16:44:09",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc"
+            }
+        ],
+        "description": "This is an enhanced version of the Yii Database Migration Tool that adds module support and many more usefull features.",
+        "homepage": "https://github.com/yiiext/migrate-command",
+        "keywords": [
+            "database-migration",
+            "extension",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiiext/nested-set-behavior",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/nested-set-behavior.git",
+            "reference": "c0f82f5d1de1ac05d96b1959d7fba248ef3bf959"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiiext/nested-set-behavior/zipball/c0f82f5d1de1ac05d96b1959d7fba248ef3bf959",
+            "reference": "c0f82f5d1de1ac05d96b1959d7fba248ef3bf959",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0"
+        },
+        "time": "2015-01-01 06:28:50",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "NestedSetBehavior.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Kochetov",
+                "email": "creocoder@gmail.com"
+            }
+        ],
+        "description": "AR models behavior that allows to work with nested sets tree.",
+        "homepage": "https://github.com/yiiext/nested-set-behavior",
+        "keywords": [
+            "extension",
+            "nested set",
+            "yii"
+        ]
+    },
+    {
+        "name": "yiiext/taggable-behavior",
+        "version": "1.5.1",
+        "version_normalized": "1.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/taggable-behavior.git",
+            "reference": "b3713545565374522b3cb2b1fe066720466f0897"
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "yiiext/twig-renderer",
+        "version": "1.1.15",
+        "version_normalized": "1.1.15.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiiext/twig-renderer",
+            "reference": "v1.1.15"
+        },
+        "type": "library",
+        "installation-source": "source"
+    },
+    {
+        "name": "zhuravljov/yii2-debug",
+        "version": "v1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zhuravljov/yii2-debug.git",
+            "reference": "01dd79d27071e13a7d68ec3b60f2140bae8447c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zhuravljov/yii2-debug/zipball/01dd79d27071e13a7d68ec3b60f2140bae8447c5",
+            "reference": "01dd79d27071e13a7d68ec3b60f2140bae8447c5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.0",
+            "yiisoft/yii": ">=1.1.15"
+        },
+        "time": "2016-07-13 15:44:39",
+        "type": "yii-extension",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Roman Zhuravlev",
+                "email": "zhuravljov@gmail.com"
+            }
+        ],
+        "description": "Yii debug toolbar",
+        "homepage": "https://github.com/zhuravljov/yii2-debug",
+        "keywords": [
+            "debug",
+            "extension",
+            "yii"
+        ]
+    }
+]

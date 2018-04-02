@@ -47,7 +47,6 @@ return [
         ]
     ],
     'rules' => [
-      '/store/<page:\w+>' => 'store/product/index',
         '/store' => 'store/product/index',
         '/store/search' => 'store/product/search',
         '/store/categories' => 'store/category/index',

@@ -1,0 +1,18 @@
+{
+    "name": "itmages/yii-eoauth",
+    "description": "Yii Framework Extension. EOAuthUserIdentity class implements IUserIdentity Yii interface and the OAuth protocol to authenticate a user. Based on Google's software.",
+    "minimum-stability":"stable",
+    "authors": [
+        {
+            "name": "Jorge Barata González"
+        }
+    ],
+    "homepage": "http://www.yiiframework.com/extension/eoauth/",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
