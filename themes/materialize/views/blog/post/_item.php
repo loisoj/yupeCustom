@@ -41,7 +41,7 @@
 
     <div class="posts-list-block-text">
         <p>
-            <?= $data->getImageUrl() ? CHtml::image($data->getImageUrl(), CHtml::encode($data->title), ['class' => 'img-responsive']) : ''; ?>
+            <?= $data->getImageUrl(400,400,false,'/dir-nophoto.jpg') ? CHtml::image($data->getImageUrl(400,400,false,'/dir-nophoto.jpg'), CHtml::encode($data->title), ['class' => 'img-responsive']) : ''; ?>
         </p>
         <?= strip_tags($data->getQuote()); ?>
     </div>

@@ -3,7 +3,7 @@
 
   <div class="card small">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="<?= $data->getImageUrl(); ?>">
+      <img class="activator" src="<?= $data->getImageUrl(400,400,false,'/dir-nophoto.jpg'); ?>">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4"><?= CHtml::link(
@@ -25,21 +25,21 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"><?= $data->name ?> <i class="material-icons right">close</i></span>
-      <ul>
-      <li>        <?php $this->widget(
-                  'application.modules.blog.widgets.JoinBlogWidget',
-                  ['user' => Yii::app()->getUser(), 'blog' => $data]
-              ); ?>
-              </li>
-
+            <span><?= strip_tags($data->description); ?></span>
+      <ul class="row">
               <?php
               if ($data->userIn(Yii::app()->getUser()->getId())) { ?>
-                <br>
-                <li>
+
+                <li class=" col s6">
                   <?php
                   echo CHtml::link(Yii::t('BlogModule.blog', 'Add a post'), ['/blog/publisher/write', 'blog-id' => $data->id], ['class' => 'btn btn-success btn-sm']);
                   ?> </li> <?php  } ?>
+                  <li class="col s6">        <?php $this->widget(
+                              'application.modules.blog.widgets.JoinBlogWidget',
+                              ['user' => Yii::app()->getUser(), 'blog' => $data]
+                          ); ?>
+                          </li>
       </ul>
-      <span><?= strip_tags($data->description); ?></span>
+
     </div>
   </div>

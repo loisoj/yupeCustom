@@ -20,7 +20,8 @@
         var yupeTokenName = '<?= Yii::app()->getRequest()->csrfTokenName;?>';
         var yupeToken = '<?= Yii::app()->getRequest()->getCsrfToken();?>';
     </script>
-    <?php     Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/blog.js'); ?>
+    <?php     Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/blog.js');
+    Yii::app()->getClientScript()->registerScriptFile($this->mainAssets . '/js/ckeditor.js'); ?>
         <script async src="/js/my.js" charset="utf-8"></script>
             <?php \yupe\components\TemplateEvent::fire(ShopThemeEvents::HEAD_END);?>
   </head>
@@ -74,6 +75,7 @@
 <li> <a href="/registration">Регистрация</a> </li>
 <?php else : ?>
   <li> <a href="/profile">Мой профиль</a> </li>
+  <li> <a href="/messages/inbox">Почта</a> </li>
   <li> <a href="#">Мой код</a> </li>
   <li> <a href="#">Мои CDN</a> </li>
   <li> <a href="/logout">Выйти</a> </li>

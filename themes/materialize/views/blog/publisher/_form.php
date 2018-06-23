@@ -6,7 +6,7 @@
         });
     })
 </script>
-
+<script src="https://cdn.ckeditor.com/ckeditor5/10.1.0/classic/ckeditor.js"></script>
 
 <?php
 /**
@@ -215,7 +215,25 @@ $form = $this->beginWidget(
 <div class="alert alert-info">
     После публикации записи ее редактирование будет невозможно!
 </div>
+<script type="text/javascript">
+ClassicEditor
+  .create( document.querySelector( '#Post_content' ) )
+  .then( editor => {
+      console.log( editor );
+  } )
+  .catch( error => {
+      console.error( error );
+  } );
 
+  ClassicEditor
+    .create( document.querySelector( '#Post_quote' ) )
+    .then( editor => {
+        console.log( editor );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );
+</script>
 <br/>
 
 <button name="publish" class="btn btn-primary" id="publish-post" type="submit">Опубликовать</button>

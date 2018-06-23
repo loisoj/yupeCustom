@@ -23,13 +23,17 @@ $this->breadcrumbs = [
                       ); ?>
         <div class="blog-logo pull-left">
             <?= CHtml::image(
-                $blog->getImageUrl(109, 109),
+                $blog->getImageUrl(109, 109, true , ''),
                 CHtml::encode($blog->name),
                 [
                     'width'  => 109,
                     'height' => 109
                 ]
-            ); ?>
+            );
+
+
+             ?>
+
         </div>
         <div class="blog-description">
           <?php if ($blog->description) : ?>
@@ -85,5 +89,3 @@ $this->breadcrumbs = [
 ); ?>
 
 <br/><br/>
-
-<?php $this->widget('application.modules.blog.widgets.ShareWidget'); ?>

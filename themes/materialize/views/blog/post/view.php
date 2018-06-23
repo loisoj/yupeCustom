@@ -50,7 +50,7 @@ $this->breadcrumbs = [
         <div class="col-sm-12" id="post">
             <p>
                 <?php if ($post->image): ?>
-                    <?= CHtml::image($post->getImageUrl()); ?>
+                    <?= CHtml::image($post->getImageUrl(400,400,true,'/dir-nophoto.jpg')); ?>
                 <?php endif; ?>
 
                 <?= $post->content; ?>
